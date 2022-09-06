@@ -22,9 +22,38 @@ li{
 }
 
 .mid {
-    background-color: rgb(100, 232, 255);
     height: 553px;
+    background-image: url('IMG_20220906_103426.jpg')
+
 }
+
+.bawah {
+    color: white;
+}
+
+
+
+.shapesalam {
+    background-color: thistle;
+    height: 130px;
+    display: inline-block;
+    padding: 20px 40px 30px 40px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.atas {
+    color: rgb(121, 106, 255);
+}
+
+.salam h1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.salam {
+    padding: 200px;
+}
+
 
 .bot {
     background-color: rgb(173, 252, 252);
@@ -52,9 +81,10 @@ li{
 }
 
 body {
-    background-color: rgb(100, 232, 255);
     font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
+
+
 
