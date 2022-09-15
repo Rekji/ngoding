@@ -68,7 +68,7 @@ li{
 }
 
 .top {
-    width: 70%;
+    width: 69.35%;
     height: 150px;
     padding: 0px 20px px 20px;
     margin-left: 15%;
@@ -82,17 +82,32 @@ li{
 
 .fotodepan {
     position: absolute;
-    height: 35%;
+    height: 60%;
     width: 25%;
-    padding: 123px 0 20px 100px;
+    padding: 20px 0 20px 80px;
 }
 
 .mid {
     background-color: rgba(255, 255, 255, 0.9);
     width: 70%;
-    height: 500px;
+    height: 1100px;
     padding: 0px 20px px 20px;
     margin-left: 15%
+}
+
+.tulisankoran {
+    padding: auto 0px ;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.kolomkoran {
+    width: auto;
+    height: auto;
+    margin: 20px ;
+
+    text-align: justify;
 }
 
 .bawah {
@@ -123,6 +138,27 @@ li{
     padding: 50px 1px 1px 510px;
 }
 
+.email {
+    width: 400px;
+
+}
+
+.contactform {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 40px;
+}
+
+
+input, textarea {
+    border: solid rgba(185, 185, 185, 0.9);;
+}
+
+.pesan, .bidang{
+    width: 400px;
+    height: 60px;
+    padding: 0px px;
+    
+}
 
 .bot {
     background-color: rgb(173, 252, 252);
@@ -164,7 +200,7 @@ li{
 .btn-wrapper{
     color: rgb(185, 185, 185);
     padding: 33px 1px;
-    float: right;
+    float: none;
     text-align:center;
     width: 100%;
     margin-top:2%;
