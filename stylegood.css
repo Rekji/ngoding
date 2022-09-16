@@ -145,9 +145,17 @@ li{
 
 .contactform {
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 40px;
+    margin: auto;
 }
 
+.titlesection {
+    text-align: center;
+}
+
+.shape{
+    justify-content: center;
+    display: flex;
+}
 
 input, textarea {
     border: solid rgba(185, 185, 185, 0.9);;
