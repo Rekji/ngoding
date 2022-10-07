@@ -5,14 +5,12 @@ html {
 }
 
 li{
-    display:flex;
     list-style: none;
     font-size: 20px; 
     color:rgb(0, 0, 0);
 }
 
 .header-list li {
-    display:flex;
     float: right;
     margin: 100px 6px 4px;
     padding: 10px 30px 12px 30px;
@@ -49,33 +47,19 @@ li{
     top: 0;
     bottom: 0;
     float: left;
-    height: 30%;
-    width: 25%;
+    height: 280px;
+    width: auto;
     
 }
 
 .mid {
     background-color: rgba(255, 255, 255, 0.9);
     width: 70%;
-    height: auto;
+    height: 440px;
     padding: 0px 20px px 20px;
     margin-left: 15%
 }
 
-.tulisankoran {
-    position:relative;
-    padding: auto 0px 0px auto ;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-}
-
-.kolomkoran {
-    width: auto;
-    height: auto;
-    margin: 20px ;
-    text-align: justify;
-}
 
 .bawah {
     color: rgb(71, 71, 71);
@@ -84,7 +68,7 @@ li{
 
 .shapesalam {
     display:flex;
-    margin-right: 90px;
+    margin-right: 60px;
     height: auto;
     display: inline-block;
     padding: 20px 10px 30px 10px;
@@ -103,65 +87,71 @@ li{
 }
 
 .salam {
-    padding: 50px 1px 1px 510px;
+    padding: 50px 1px 1px 550px;
     text-align:center;
 }
 
-.email {
-    width: 400px;
-
-}
-
-.contactform {
-    
-    padding: 0px 0px 0px 0px;
-    margin: auto;
-}
-
-.titlesection {
-    display:flex;
-    text-align: center;
-}
-
-.shape{
-    display:flex;
-    justify-content: center;
-
-}
-
-input, textarea {
-    display:flex;
-    border: solid rgba(185, 185, 185, 0.9);;
-}
-
-.pesan, .bidang{
-    display:flex;
-    width: 400px;
-    height: 60px;
-    padding: px px;
-    
-}
 
 .bot {
-    display:flex;
-    background-color: rgb(173, 252, 252);
-    height: 133px;
-
-    
+    background-color:rgb(208, 255, 224);
+    height: 140px;
 }
 
-.footer-list li:hover {
-    color: white;
+.tulisanfooter1 li {
+    padding: 5% 10% 0 24%;
 }
 
-.footer-list li {
-    
+.tulisanfooter1 {
+    width: 30%;
+    height: 95%;
+    border: 5px solid rgb(110, 255, 246);
+    float: left;
+}
+
+.tulisanfooter2 li {
+    padding: 6% 10% 0 30%;
+}
+
+.tulisanfooter2 {
+    width: 30%;
+    height: 95%;
+    border: 5px solid rgb(110, 255, 246);
     float: right;
-    padding: 50px 120px;
+}
+
+.tulisanfooter3 {
+    width: 38.48%;
+    height: 95%;
+    border-top: 5px solid rgb(110, 255, 246);
+    border-bottom: 5px solid rgb(110, 255, 246);
+    float: right;
+}
+
+.tulisanfooter3 p {
+    text-align: center;
+    font-size: 24px;
+    margin: 3% 3% 0 3%;
+}
+
+.logoemail {
+    float: left;
+    position: relative;
+    margin: 0 0px 0 -15%;
+    padding: 15% 0 0% 0%;
+    height: 40%;
+    width: 14%; 
+}
+
+.logoig {
+    float: left;
+    position: relative;
+    margin: 0 1px 0 2px;
+    padding: 4% 0 0 10%;
+    height: 40%;
+    width: 15%; 
 }
 
 .logo {
-    display:flex;
     position: absolute;
     float: left;
     height: 100%;
@@ -198,60 +188,177 @@ input, textarea {
     float: left;  
 }
 
-.btn-wrapper{
-    color: rgb(185, 185, 185);
-    padding: 20px 1px;
-    text-align:center;
-    width: 90%;
-    margin-top:0.5%;
-    margin-right: 0px;
-    border-radius: 20px;
-
-}
-
-.btn-wrapper p{
-    font-weight: bolder;
-    font-size: 20pt;
-}
-
-
-.btn{
-    background-color: #3B413C;
-    padding: 15px 10px;
-    border-radius: 10px;
-    color:#3B413C;
-    opacity: 0.7;
-    display: inline-block;
-    color: white;
-}
-
-.btn:hover{
-    opacity: 1;
-}
-
-
-.facebook{
-    margin-right: 10px ;
-}
-
-
-a{
-    text-decoration: none;
-}
-
 .penyatu {
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('IMG_20220906_103426.jpg');
     position: relative;
-    
-     
 }
 
 body {
     font-family: sans-serif;
-
-
-
 }
+
+a{
+    text-decoration:none;
+}
+
+label{
+        font-family:sans-serif;
+        font-size: 15px ;
+}
+#forgot-pass{
+        color:rgb(0, 0, 0);
+        font-family:sans-serif;
+        font-size: 15px ;
+        margin-top: 10px;
+        text-align: right;			
+}
+#card{
+        background:rgb(208, 255, 224);
+        border-radius:8px;
+        box-shadow:1px 2px 8px rgba(0,0,0,0.65);
+        height: 410px;
+        margin:6rem auto 8.1rem auto;
+        width: 329px;
+}
+#card-content{
+        padding:12px 44px ;
+}
+#card-title{
+        font-family:"Raleway Thin"sans-serif;
+        letter-spacing: 4px;
+        padding-bottom: 23px;
+        padding-top: 13px;
+        text-align:center;
+}
+#signup{
+        color:rgb(0, 0, 0) ;
+        font-family:"Raleway",sans-serif;
+        font-size:15px;
+        margin-top:16px;
+        text-align: center;
+}
+#submit-btn{
+     background:rgb(185, 185, 185);
+     border-radius:21px;
+     border:none;
+     box-shadow:0px 1px 8px #ffffff;
+     cursor:pointer;
+     color:rgb(0, 0, 0);
+     font-family:"Raleway semibold",sans-serif;
+     height: 42.3px;
+     margin:0 auto;
+     margin-top:50px;
+     width: 153px;
+}
+#submit-btn:hover{
+    color: #fbfbfb;
+    box-shadow:0px 2px 8px #000000;
+}
+.form{
+        align-items:left;
+        display:flex;
+        flex-direction:column;
+}
+.form-border{
+        height: 2px ;
+        width:100% ;
+        background:rgb(185, 185, 185);
+}
+.form-content{
+        background: #fbfbfb;
+        border:none;
+        outline:none ;
+        padding-top: 14px;
+}
+.underline-title{
+        background:rgb(185, 185, 185);
+        height: 2px ;
+        width: 89px ;
+        margin: 8px auto 0 auto;
+}
+
+.box {
+    padding: 52px 0 0 554px;
+    position: relative;
+    float: left;
+}
+
+.button {
+    background: rgb(208, 255, 224);
+    display: block;
+    width: 318px;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(110, 255, 246)    ;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin: 0 auto;
+}
+.button:hover {
+    background: #06D85F;
+}
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup #card {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    border: #ff2c2c;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+
+  }
+  
+  @media screen and (max-width: 800px){
+    .box{
+      width: 100%;
+    }
+    .popup{
+      width: 100%;
+    }
+  }
