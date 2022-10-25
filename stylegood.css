@@ -10,18 +10,29 @@ li{
     color:rgb(0, 0, 0);
 }
 
-.header-list li {
-    float: right;
-    margin: 100px 6px 4px;
+.header-list ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 0% 0% 10%
+}
+
+.header-list a {
+    margin: 104px 6px 4px;
     padding: 10px 30px 12px 30px;
-
+    color: inherit;
 }
 
-.profile:hover, .jurusan:hover, .about:hover, .denah:hover, .guru:hover {
-    color: white
+ul a:hover {
+    border-bottom: solid 10px #fbfbfb;
+    padding-bottom: 1%;
+    color: #fbfbfb;
+    transition: 0.3s ease-in-out;
 }
 
-.profile, .denah, .about, .jurusan, .guru {
+
+.a1, .a2, .a3, .a4, .a5 {
+    cursor: pointer;
+    text-decoration: none;
     background-color: rgba(255, 255, 255, .67);
     opacity: 1;
     border: 5px solid rgb(110, 255, 246);
@@ -300,7 +311,7 @@ label{
 .button {
     background: rgb(208, 255, 224);
     display: block;
-    width: 318px;
+    width: 318%;
     text-align: center;
     font-size: 1em;
     padding: 10px;
