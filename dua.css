@@ -103,6 +103,8 @@ a:hover {
 
 .tulisanfooter1 li {
     padding: 5% 10% 0 24%;
+    list-style: none;
+    font-size: 20px;
 }
 
 .tulisanfooter1 {
@@ -114,6 +116,8 @@ a:hover {
 
 .tulisanfooter2 li {
     padding: 6% 10% 0 30%;
+    list-style: none;
+    font-size: 20px;
 }
 
 .tulisanfooter2 {
@@ -207,7 +211,3 @@ body {
 a{
     text-decoration:none;
 }
-
-
-
-  
