@@ -1,0 +1,256 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+
+}
+
+.header-list li{
+    list-style: none;
+    font-size: 20px; 
+    color:rgb(0, 0, 0);
+}
+
+.header-list ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 0% 0% 10%
+}
+
+.header-list a {
+    margin: 104px 6px 4px;
+    padding: 10px 30px 12px 30px;
+    color: inherit;
+}
+
+ul a:hover {
+    border-bottom: solid 10px #fbfbfb;
+    padding-bottom: 1%;
+    color: #fbfbfb;
+    transition: 0.3s ease-in-out;
+}
+
+
+.a1, .a2, .a3, .a4, .a5 {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .67);
+    opacity: 1;
+    border: 5px solid rgb(110, 255, 246);
+    display:flex;
+}
+
+.top {
+    width: 69.35%;
+    height: 150px;
+    padding: 0px 20px px 20px;
+    margin-left: 15%;
+    background-image: url('IMG_20220802_105003.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 5px solid rgb(110, 255, 246);
+
+}
+
+.mid {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 70%;
+    height: 100%;
+    padding: 0px 20px px 20px;
+    margin-left: 15%;
+}
+
+.notice {
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
+
+.denah {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l1 {
+    height: 422px;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.l2, .l3{
+    height: 422px;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.l1:hover, .l2:hover, .l3:hover {
+    border: solid 3px rgb(110, 255, 246);
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.l1big, .l2big, .l3big{
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    height: 640px;
+    width: 450px;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(193, 253, 255);
+}
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.bawah {
+    color: rgb(71, 71, 71);
+}
+
+
+.bot {
+    background-color:rgb(208, 255, 224);
+    height: 140px;
+}
+
+.tulisanfooter1 li {
+    padding: 5% 10% 0 24%;
+    list-style: none;
+    font-size: 20px;
+}
+
+.tulisanfooter1 {
+    width: 30%;
+    height: 95%;
+    border: 5px solid rgb(110, 255, 246);
+    float: left;
+}
+
+.tulisanfooter2 li {
+    padding: 6% 10% 0 30%;
+    list-style: none;
+    font-size: 20px;
+}
+
+.tulisanfooter2 {
+    width: 30%;
+    height: 95%;
+    border: 5px solid rgb(110, 255, 246);
+    float: right;
+}
+
+.tulisanfooter3 {
+    width: 38.48%;
+    height: 95%;
+    border-top: 5px solid rgb(110, 255, 246);
+    border-bottom: 5px solid rgb(110, 255, 246);
+    float: right;
+}
+
+.tulisanfooter3 p {
+    text-align: center;
+    font-size: 24px;
+    margin: 3% 3% 0 3%;
+}
+
+.logoemail {
+    float: left;
+    position: relative;
+    margin: 0 0px 0 -15%;
+    padding: 15% 0 0% 0%;
+    height: 40%;
+    width: 14%; 
+}
+
+.logoig {
+    float: left;
+    position: relative;
+    margin: 0 1px 0 2px;
+    padding: 4% 0 0 10%;
+    height: 40%;
+    width: 15%; 
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 100%
+}
+
+.logobang {
+    display:flex;
+    float: left;
+    border-right: 5px solid rgb(110, 255, 246);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 0% 0% 0% 0%;
+    height: 100%;
+    width: 14%;
+
+}
+
+.smk19 {
+    display:flex;
+    margin-left: 10%;
+    position: absolute;
+    padding: 10px 20px 12px 30px;
+    font-size: 32px;
+    border-right: 5px solid rgb(110, 255, 246);
+    border-bottom: 5px solid rgb(110, 255, 246);
+    background-color: rgba(255, 255, 255, 0.67);
+}
+
+.logo2 {
+    padding-top: 25px;
+    font-size: 55px;
+    padding-left: 50px;
+    float: left;  
+}
+
+.penyatu {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('IMG_20220906_103426.jpg');
+    position: relative;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+  
